@@ -82,14 +82,20 @@ h1 {
     border-radius: 50%;
 }
 @media (max-width: 920px) {
-    .navbar {
-        width: 250%;
-    }
-    .web {
-    width: 100%;
-    }
-    .foot {
-        width: 250%;
-    }
+   .opciones{
+    display: none;
+   }
+   .iconos{
+    display: none;
+   }
+   .hamburguesa{
+    margin: 0 auto;
+   }
+   .web{
+    grid-template-columns: repeat(1, 1fr);
+   }
+   .foot{
+    flex-direction: column;
+   }
 }
 
